@@ -18,8 +18,8 @@ cask "gpt4all" do
 	}
 
 	uninstall trash: [
-		"/Applications/GPT4All.app"
-		"{ENV["HOME"]}/Library/Application Support/chatall/",
+		"/Applications/GPT4All.app",
+		"#{ENV["HOME"]}/Library/Application Support/chatall/",
 		"/Applications/gpt4all/"
 	]
 end
