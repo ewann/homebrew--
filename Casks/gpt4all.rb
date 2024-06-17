@@ -1,5 +1,5 @@
 cask "gpt4all" do
-	version "2.4.6"
+	version "2.8.0"
 	sha256 "37551b3f1b51bc78a7a49cc4d6b9f5ecee08d165eefb0775131a0ba1a216aade"
 	url "https://gpt4all.io/installers/gpt4all-installer-darwin.dmg"
 	name "GPT4All"
